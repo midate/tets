@@ -1,0 +1,37 @@
+/*.LANDING ---------------------------------------------------------------------------------------------------------------*/
+.BG_dark{color: #fff;}
+
+
+.TOP_BAR_LANDING{background:#00abeb url(../images/bg_pattern_1.png);}
+.DESIGN_v2 .TOP_BAR_LANDING .logo{background:none;}
+
+.header_bg{background-image: url("../images/visual.jpg");}
+
+
+
+
+
+
+.logo{ width: 325px;}
+.logo a{margin-top: 5px;}
+
+
+.HEADER{}
+.HEADER .bg_cover{ background: #0079b7; opacity: 0.3;}
+
+.slogan_header .deco{ color: #d9ff9e;}
+
+
+.landing-page  .visit{  color: #fff !important; background: #7ec909 !important; border: none;}
+.landing-page  .visit:hover{  background: #00abeb !important; box-shadow: 0 0 0 0;}
+
+
+@media screen and (max-width:768px){
+
+.DESIGN_v1 .slogan_header .deco{color:#7ec909;}
+.DESIGN_v1 .header_bg{ background:none;}
+.DESIGN_v1 .HEADER .bg_cover{ display:none;}
+    
+.DESIGN_v2 .slogan_header{ color: #fff;}
+    
+}
